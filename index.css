@@ -2,6 +2,10 @@
     width: 400px;
     height: 400px;
 }
+html{
+  scroll-behavior: smooth;
+
+}
 .header {
     overflow: hidden;
     background-color: #ffd000;
@@ -51,6 +55,28 @@
         width: 250px;
         height: 250px;
    }
+   .y-image{
+    width: 50px;
+    height: 50px;
+  }
+  .y-para{
+    width: 100px;
+    text-align: justify;
+  }
+  
+  .col2{
+    width: 30px;
+  }
+   .s-images{
+     width: 200px;
+     height: 200px;
+   }
+   
+   .docto{
+
+    width: 280px;
+    height: 250px;
+}
     
     .header-right {
       float: none;
@@ -66,4 +92,54 @@
 .col2{
     margin-top: 120px;
     margin-left: 50px;
+}
+.col{
+  margin-top: 100px;
+}
+.container{
+  margin-top: 50px;
+}
+.t-img{
+  width: 400px;
+  height: 300px;
+}
+.jumbotron-1{
+display: flex;
+}
+.tell{
+  flex: 1;
+}
+.plan{
+  flex: 1;
+}
+.kit{
+  flex: 1;
+}
+.enjoy{
+  flex: 1;
+}
+.s-images{
+  width: 100px;
+  height: 100px;
+  
+}
+
+.s-para{
+  text-align: center;
+  margin-top: 30px;
+}
+.s-head{
+  size: 20px;
+  text-align: center;
+  margin-top: 20px;
+}
+.s-title{
+  text-align: center;
+}
+.y-para{
+  width: 400px;
+}
+.y-img{
+  width: 200px;
+  height: 280px;
 }
